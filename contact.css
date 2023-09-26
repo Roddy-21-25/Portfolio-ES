@@ -1,0 +1,30 @@
+.contact-title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 800;
+  color: blue;
+}
+
+.contact-btn {
+  border: 3px solid blue;
+  background-color: white;
+  color: blue;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: blue;
+  color: white;
+  box-shadow: 0px 0px 6px blue;
+  transform: scale(1.1);
+}
+
+.contact-btn:hover svg{
+    transform: scale(1.1);
+}

@@ -1,0 +1,127 @@
+.bg {
+  background-image: url("/Header/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 15px;
+  transition: all 0.3s ease;
+  text-shadow: 0px 0px 6px black;
+}
+
+.nav-item a:hover {
+  background-color: white;
+  color: blue;
+  padding: 10px;
+  text-shadow: none;
+}
+
+.navbar-toggler {
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.hello {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  margin: 20px;
+  text-shadow: 0px 0px 6px black;
+}
+
+.name {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  margin: 20px;
+  font-size: 70px;
+  margin-bottom: 40px;
+  text-shadow: 0px 0px 6px black;
+}
+
+.position {
+  color: blue;
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+.text-position {
+  background-color: white;
+  padding: 10px;
+  padding-right: 30px;
+  border-radius: 10px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.text-position:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.415);
+}
+
+.bi-code-slash{
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.hire{
+    margin: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.719);
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.hire:hover{
+    color: blue;
+    background-color: white;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 16px rgb(0, 38, 255);
+}
+
+.view{
+    margin: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.719);
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.view:hover{
+    color: blue;
+    background-color: white;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 16px rgb(0, 38, 255);
+}
+
+.box-text{
+    margin: 10px;
+}
